@@ -18,3 +18,7 @@ Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+
+#Lock files
+package-lock.json
+composer.lock
