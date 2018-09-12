@@ -13,7 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    {{$id}}
                     Your cart is empty!
                 </div>
             </div>

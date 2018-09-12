@@ -9,7 +9,7 @@ class ShoppingItems extends Model
     use Notifiable;
 
     protected $fillable = [
-        'name', 'brand', 'type', 'price', 'description', 'information'
+        'name', 'brand', 'type', 'price', 'description', 'information', 'category', 'image_url'
     ];
     
     protected $hidden = [
