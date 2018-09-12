@@ -23,6 +23,10 @@ class CreateShoppingItemsTable extends Migration
             $table->float('rating', 2, 2)->nullable();
             $table->dateTime('delivery')->nullable();
             $table->longText('information')->nullable();
+            $table->longText('image_url_1');
+            $table->longText('image_url_2');            
+            $table->longText('image_url_3'); 
+            $table->longText('image_url_4');             
             $table->timestamps();
         });
     }
